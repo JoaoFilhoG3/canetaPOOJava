@@ -2,11 +2,56 @@ package codigos;
 
 public class Caneta {
 
-    public String modelo;
-    public String cor;
-    public double ponta;
-    public int carga;
-    public boolean tampada;
+    private String modelo;
+    private String cor;
+    private double ponta;
+    private int carga;
+    private boolean tampada;
+
+    //Atributo modelo
+    public String getModelo() {
+        return this.modelo;
+    }
+
+    public void setModelo(String modelo) {
+        this.modelo = modelo;
+    }
+
+    //Atributo cor
+    public String getCor() {
+        return this.cor;
+    }
+
+    public void setCor(String cor) {
+        this.cor = cor;
+    }
+
+    //Atributo ponta
+    public double getPonta() {
+        return this.ponta;
+    }
+
+    public void setPonta(double ponta) {
+        this.ponta = ponta;
+    }
+
+    //Atributo carga
+    public int getCarga() {
+        return this.carga;
+    }
+
+    public void setCarga(int carga) {
+        this.carga = carga;
+    }
+
+    //Atributo tampada
+    public boolean getTampada() {
+        return this.tampada;
+    }
+
+    public void setTampada(boolean tampada) {
+        this.tampada = tampada;
+    }
 
     public void mostrarStatus() {
         System.out.println("--------------------------------------");
